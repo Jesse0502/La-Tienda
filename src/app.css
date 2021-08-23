@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background-image: url("./assets/_3Q3tsJ01nc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-content {
+  width: 600px;
+  margin-top: 15vh;
+  padding: 35px;
+}
+
+.app-content h2 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.hero-btn {
+  text-decoration: none;
+}
+
+.app-content button {
+  padding: 5px;
+  font-size: 1.2em;
+  display: flex;
+  background-color: #d2b5a6;
+  cursor: pointer;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.411);
+  border: none;
+}
+
+.arrow {
+  height: 25px;
+  padding-left: 10px;
+}
+
+@media all and (max-width: 900px) {
+  .app {
+    background-image: url("./assets/_3Q3tsJ01nc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .app-content h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    width: 50%;
+  }
+}
